@@ -1,5 +1,6 @@
-let num = Math.floor(Math.random() * 16);
+let num = Math.floor(Math.random() * 15) + 1;
 
+// 確認用
 console.log(num);
 
 if ((num % 3) ===0 && (num % 5) === 0) {
